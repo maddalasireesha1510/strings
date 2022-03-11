@@ -1,0 +1,9 @@
+def uppercheck(string):
+    upper=0
+    for i in range(len(string)):
+        if(ord(string[i])>=65 and ord(string[i])<=90):
+           upper+=1
+    print(upper)
+string=input()
+print(string)
+uppercheck(string)
